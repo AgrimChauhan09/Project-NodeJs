@@ -17,7 +17,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+ }
+
 
 .App-link {
   color: #61dafb;
@@ -60,8 +61,21 @@
   border: 1px solid skyblue;
 }
 
-.register{
+.register .product{
   margin-left: 30%;
+}
+.product{
+  margin-left: 30%;
+}
+.nav-right{
+  text-align: right;
+}
+.logo{
+  width: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 20px;
 }
 
 .login{
@@ -76,6 +90,45 @@
   background-color: #61dafb;
   border: 1px solid;
   cursor: pointer;
+  margin-left: 30%;
+}
+.appbutton2{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: #61dafb;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.invalid{
+  color:red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+
+.ProductList{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ProductList ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
 }
 
 
+.ProductList ul{
+  margin: 0px;
+}
+
+.search-product-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}

@@ -12,19 +12,26 @@ const Nav = () => {
 
     return (
         <div>
-            <ul className="nav-ul">
+
+            <img 
+            alt="logo"
+            className='logo'
+             src ='https://cdn.iconscout.com/icon/free/png-512/free-leetcode-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-4-pack-logos-icons-2944960.png?f=webp&w=512'/>
+
+           {auth ? <ul className="nav-ul">
                 <li><Link to="/">Products</Link></li>
                 <li><Link to="/add">Add Products</Link></li>
                 <li><Link to="/update">Update Products</Link></li>
                 <li><Link to="/profile">Profile</Link></li>
                 <li><Link to="/Login">Login</Link></li>
-                <li>
-                    {auth ? (
-                        <Link onClick={logout} to="/signup">Log Out</Link>
-                    ) : (
-                        <Link to="/signup">Sign Up</Link>
-                    )}</li> 
-            </ul> 
+                <li> <Link onClick={logout} to="/signup">Log Out {(JSON.parse(auth).name)}</Link></li>
+                </ul>
+                :
+                <ul className="nav-ul nav-right">
+                    <li><Link to ="/signup">Sign Up</Link></li>
+                    <li><Link to ="/login">Login</Link></li>
+                </ul>
+            }
         </div>
     );
 };
