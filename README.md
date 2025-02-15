@@ -1,7 +1,7 @@
-# E-Commerce Website
+# E-Commerce Dashboard
 
 ## 🛒 Project Overview
-This is a simple **E-Commerce Website** built as a practice project. It includes basic features like:
+This is a simple **E-Commerce Dashboard** built as a practice project. It includes basic features like:
 - **User Authentication** (Signup & Login)
 - **Add Products**
 - **Update Products**
@@ -12,9 +12,9 @@ This project is beginner-friendly and helps understand CRUD operations in web de
 ---
 
 ## 🏗 Tech Stack
-- **Frontend:** HTML, CSS, JavaScript (React if used)
+- **Frontend:** HTML, CSS, JavaScript,Reactjs
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB / MySQL (if used)
+- **Database:** MongoDB
 
 ---
 
@@ -56,10 +56,6 @@ You can add images/screenshots of your project like this:
 ![Add product Page](https://github.com/AgrimChauhan09/Project-NodeJs/blob/main/add%20product.png?raw=true)
 ![AMongoDb](https://github.com/AgrimChauhan09/Project-NodeJs/blob/main/mongodb.png?raw=true)
 
-**Steps to Add Screenshots:**
-1. Create a folder named `screenshots` in your project root.
-2. Place your screenshots inside it (`homepage.png`, `productpage.png`, etc.).
-3. Use the `![Alt Text](path-to-image)` format in README.md.
 
 ---
 
