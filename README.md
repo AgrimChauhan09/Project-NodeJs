@@ -50,12 +50,11 @@ The project should now be running on **http://localhost:3000/**.
 ## 📸 Project Screenshots
 You can add images/screenshots of your project like this:
 
-```md
+
 ![Main Page](https://github.com/AgrimChauhan09/Project-NodeJs/blob/main/main%20page.png?raw=true)
 ![update Product](https://github.com/AgrimChauhan09/Project-NodeJs/blob/main/update%20product.png?raw=true)
 ![Add product Page](https://github.com/AgrimChauhan09/Project-NodeJs/blob/main/add%20product.png?raw=true)
 ![AMongoDb](https://github.com/AgrimChauhan09/Project-NodeJs/blob/main/mongodb.png?raw=true)
-```
 
 **Steps to Add Screenshots:**
 1. Create a folder named `screenshots` in your project root.
